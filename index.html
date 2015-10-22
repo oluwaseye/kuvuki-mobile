@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/font.css" type="text/css" charset="utf-8" />
+    <link href="dist/css/app.css" rel="stylesheet">
+    <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/slidebars.css">
+
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+    body {
+  
+  padding-top: 70px;
+}
+    </style>
+
+   
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top  effect1" role="navigation" >
+      <div class="container">
+   
+        <div id="navbar" class="">
+       
+          
+           
+            	<div class="row nav-items">
+    		<div class="col-xs-3"><a href="#"><i class="fa fa-list fa-lg sb-toggle-left" ></i></a></div>
+    	<div class="col-xs-7"><img src="dist/images/logo.png" class="logo"></div>
+    	<div class="col-xs-2"><a href=""><i class="fa fa-repeat fa-lg "></i></a></div>
+    	</div>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+<div id="sb-site">
+   <!-- opened a new container so the image can fit -->
+<div class="container">
+<div class ="row">
+<a href="">
+<div class="col-xs-12">
+ <!-- Start Row with the category and time ago-->
+   <div class="row source-time-row">
+   	<div class="col-xs-6">
+   		<p class="source">LindaIkeji Blog</p>
+   	</div>
+   	<div class="col-xs-6">
+   		<p class="pull-right">36 mins</p>
+   	</div>
+   </div>
+   <!-- End Row with the category and time ago-->
+
+<div class="row">
+<div class="col-xs-12">
+   		<div class="imgLiquid img-respond">
+    <img  src="dist/images/viewbix.jpg" />
+</div>
+
+   	</div>
+</div>
+   <!-- Start Row with the Title-->
+   <div class="row title-row">
+   	<div class="col-xs-12">
+   		<h3 class="headline">Orijinality Party Tour: Train heads to Makurdi with Kcee</h3>
+   	</div>
+   </div>
+   <!-- End Row with the Title-->
+
+    
+
+   <!-- Start Row with the content description-->
+   <div class="row content-row">
+   	<div class="col-xs-12">
+   		<p>Orijin, your favourite African modern was in Kaduna last weekend and consumers partied like there is no tomorrow. It was indeed an Orijinal time in Kaduna.
+
+</p>
+   	</div>
+   </div>
+   <!-- End Row with the content description-->
+</div>
+</a>
+     </div>   
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr/>
+	</div>
+
+
+</div>
+</div>
+
+	
+ 
+    </div><!-- /.container -->
+<div class="sb-slidebar sb-left sb-style-push sb-width-custom" data-sb-width="80%" id="side-prop">
+
+<nav>
+
+		<ul class="sb-menu">
+		
+			<li class="sb-close " id="active"><a href=""><i class="fa fa-bell"></i> Latest Stories</a></li>
+			<li class="sb-close"><a href=""><i class="fa fa-thumbs-up"></i> Liked</a></li>
+			<li class="sb-close"><a href=""><i class="fa fa-bookmark"></i> Saved</a></li>
+		</ul>
+	</nav>
+      	
+      
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/imgLiquid-min.js"></script>
+    <script src="dist/js/slidebars.js"></script>
+    <script type="text/javascript" src="dist/js/retina.min.js"></script> 
+<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    //liquid image
+    $(".imgLiquid").imgLiquid();
+
+});
+</script>
+
+<script>
+      (function($) {
+        $(document).ready(function() {
+          $.slidebars({
+          	siteClose: true, // true or false
+        /*disableOver: 480, // integer or false*/
+        hideControlClasses: true, // true or false
+        scrollLock: true // true or false
+          });
+        });
+      }) (jQuery);
+    </script>
+	<!-- Smooth Page Scrolling -->
+		<script>
+			(function($) {
+				$(document).ready(function() {
+					$('a[href^="#"]').on('touchend click', function(e) {
+						e.preventDefault();
+						var id = $(this).attr("href");
+						var offset = 70;
+						var target = $(id).offset().top - offset;
+						
+						$('html, body').animate({scrollTop:target}, 500);
+					});
+				});
+			}) (jQuery);
+		</script>
+  </body>
+</html>
